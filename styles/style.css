@@ -21,7 +21,28 @@ nav > button {
 .banner{
     background-image: url('assets/Hero-bg.png');
     background-repeat: no-repeat;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     padding: 30px;
+}
+.banner > h1 {
+    font-size: 45px;
+    
+}
+.banner > p{
+    color: rgb(25, 29, 37);
+    font-size: 16px;
+    padding: 10px 100px;
+font-weight: 400;
+
+}
+.banner > button > a{
+    color: azure;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner > button {
+    background-color: black;
+     padding: 16px;
+     border-radius: 10px;
 }
