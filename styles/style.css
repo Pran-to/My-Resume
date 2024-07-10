@@ -52,6 +52,8 @@ font-weight: 400;
 main {
     margin: 50px 130px;
 }
+
+/* development section  */
 .development{
     border-radius: 16px;
 
@@ -83,4 +85,19 @@ text-align: center;
     border-top-right-radius: 10px ;
     border-bottom-right-radius: 10px;
     text-align: right;
+}
+
+/* inspiration section style */
+.inspiration{
+    margin: 30px;
+ text-align: center;
+}
+
+.inspiration > h1 {
+     font-size: 45px;
+}
+.inspiration > p {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 50px 0;
 }
