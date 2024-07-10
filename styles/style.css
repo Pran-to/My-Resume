@@ -1,50 +1,58 @@
 /* header section style */
-*{
+* {
     text-decoration: none;
-    color: black;}
+    color: black;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
 }
-nav > button > a{
-  
+
+nav>button>a {
+
     font-size: 16px;
-font-weight: 600;
+    font-weight: 600;
 
 }
-nav > button {
+
+nav>button {
     background-color: aliceblue;
-     border-radius: 10px;
-     padding: 20px ;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-.banner{
+.banner {
     background-image: url('assets/Hero-bg.png');
     background-repeat: no-repeat;
     margin-top: 20px;
     text-align: center;
     padding: 30px;
 }
-.banner > h1 {
+
+.banner>h1 {
     font-size: 45px;
-    
+
 }
-.banner > p{
+
+.banner>p {
     color: rgb(25, 29, 37);
     font-size: 16px;
     padding: 10px 100px;
-font-weight: 400;
+    font-weight: 400;
 
 }
-.banner > button > a{
+
+.banner>button>a {
     color: azure;
     font-size: 20px;
     font-weight: 500;
 }
-.banner > button {
+
+.banner>button {
     background-color: black;
-     padding: 16px;
-     border-radius: 10px;
+    padding: 16px;
+    border-radius: 10px;
 }
 
 /* main part style  */
@@ -54,50 +62,99 @@ main {
 }
 
 /* development section  */
-.development{
+.development {
     border-radius: 16px;
 
-background: rgba(13, 19, 33, 0.02);
-padding: 60px 80px;
-text-align: center;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 60px 80px;
+    text-align: center;
 }
-.layer{
+
+.layer {
     display: flex;
     background-color: white;
-    border-top-left-radius: 10px ;
+    border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     text-align: left;
     padding: 50px;
     gap: 40px;
 }
-.layer > div > h3 {
+
+.layer>div>h3 {
     font-size: 26px;
 }
-.layer > div > button {
+
+.layer>div>button {
     background-color: white;
-    border: 2px solid ;
+    border: 2px solid;
     margin: 16px;
-    padding:5px 10px;
+    padding: 5px 10px;
     font-size: 16px;
 }
-.layer-2{
+
+.layer-2 {
     margin: 50px 0;
-    border-top-right-radius: 10px ;
+    border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     text-align: right;
 }
 
 /* inspiration section style */
-.inspiration{
+.inspiration {
     margin: 30px;
- text-align: center;
+    text-align: center;
 }
 
-.inspiration > h1 {
-     font-size: 45px;
+.inspiration>h1 {
+    font-size: 45px;
 }
-.inspiration > p {
+
+.inspiration>p {
     font-size: 16px;
     font-weight: 200;
     margin: 50px 0;
+}
+
+/* my Target section style  */
+.target {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.target>h1 {
+    font-size: 30px;
+}
+
+.card {
+    display: flex;
+    text-align: left;
+    margin: 50px 0;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.card-1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.card-2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.card-3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-1>a,
+.card-2>a,
+.card-3>a {
+    text-decoration: underline;
+
 }
