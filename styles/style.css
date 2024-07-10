@@ -1,8 +1,7 @@
 /* header section style */
 *{
     text-decoration: none;
-    color: black;
-}
+    color: black;}
 nav {
     display: flex;
     justify-content: space-around;
