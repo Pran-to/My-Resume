@@ -90,6 +90,7 @@ main {
     margin: 16px;
     padding: 5px 10px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .layer-2 {
@@ -126,6 +127,7 @@ main {
 }
 
 .card {
+    
     display: flex;
     text-align: left;
     margin: 50px 0;
@@ -157,4 +159,38 @@ main {
 .card-3>a {
     text-decoration: underline;
 
+}
+
+/* I need Support */
+.support{
+    background-image: url('assets/handshake.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.support >h1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 100px;
+    margin-top: 10px;
+    color: white;
+   
+}
+.support > p{
+    font-size: 14px;
+   color: white;
+}
+#search{
+    margin: 70px 0;
+    padding: 16px 70px;
+   width: 500px;
+    border-radius: 10px;
+}
+.submit{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600px;
 }
