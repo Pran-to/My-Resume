@@ -1,0 +1,28 @@
+/* header section style */
+*{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav > button > a{
+  
+    font-size: 16px;
+font-weight: 600;
+
+}
+nav > button {
+    background-color: aliceblue;
+     border-radius: 10px;
+     padding: 20px ;
+}
+
+.banner{
+    background-image: url('assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
+}
